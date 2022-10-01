@@ -8,7 +8,6 @@ export class UsersController {
 
     @Get()
     async getUsers(){
-        console.log('users')
         return await this.usersService.getUsers();
     }
 }
